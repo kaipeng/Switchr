@@ -38,21 +38,21 @@
 		2AEC789E1476FD09005F8275 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2AEC78A01476FD09005F8275 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2AEC78A21476FD09005F8275 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2AEC78A61476FD09005F8275 /* Switchr-Info.plist */ = {isa = PBXFileReference; path = "Switchr-Info.plist"; sourceTree = "<group>"; };
+		2AEC78A61476FD09005F8275 /* Switchr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Switchr-Info.plist"; sourceTree = "<group>"; };
 		2AEC78A81476FD09005F8275 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2AEC78AA1476FD09005F8275 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2AEC78AC1476FD09005F8275 /* Switchr-Prefix.pch */ = {isa = PBXFileReference; path = "Switchr-Prefix.pch"; sourceTree = "<group>"; };
-		2AEC78AD1476FD09005F8275 /* com_switchrAppDelegate.h */ = {isa = PBXFileReference; path = com_switchrAppDelegate.h; sourceTree = "<group>"; };
+		2AEC78AC1476FD09005F8275 /* Switchr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Switchr-Prefix.pch"; sourceTree = "<group>"; };
+		2AEC78AD1476FD09005F8275 /* com_switchrAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_switchrAppDelegate.h; sourceTree = "<group>"; };
 		2AEC78AE1476FD09005F8275 /* com_switchrAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_switchrAppDelegate.m; sourceTree = "<group>"; };
 		2AEC78B11476FD09005F8275 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		2AEC78B41476FD09005F8275 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		2AEC78B61476FD09005F8275 /* com_switchrViewController.h */ = {isa = PBXFileReference; path = com_switchrViewController.h; sourceTree = "<group>"; };
+		2AEC78B61476FD09005F8275 /* com_switchrViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_switchrViewController.h; sourceTree = "<group>"; };
 		2AEC78B71476FD09005F8275 /* com_switchrViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_switchrViewController.m; sourceTree = "<group>"; };
 		2AEC78BE1476FD09005F8275 /* SwitchrTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchrTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AEC78BF1476FD09005F8275 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		2AEC78C71476FD09005F8275 /* SwitchrTests-Info.plist */ = {isa = PBXFileReference; path = "SwitchrTests-Info.plist"; sourceTree = "<group>"; };
+		2AEC78C71476FD09005F8275 /* SwitchrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwitchrTests-Info.plist"; sourceTree = "<group>"; };
 		2AEC78C91476FD09005F8275 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2AEC78CB1476FD09005F8275 /* SwitchrTests.h */ = {isa = PBXFileReference; path = SwitchrTests.h; sourceTree = "<group>"; };
+		2AEC78CB1476FD09005F8275 /* SwitchrTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchrTests.h; sourceTree = "<group>"; };
 		2AEC78CC1476FD09005F8275 /* SwitchrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchrTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -375,6 +375,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Switchr/Switchr-Prefix.pch";
 				INFOPLIST_FILE = "Switchr/Switchr-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -386,6 +387,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Switchr/Switchr-Prefix.pch";
 				INFOPLIST_FILE = "Switchr/Switchr-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
