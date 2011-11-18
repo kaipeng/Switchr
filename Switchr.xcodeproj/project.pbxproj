@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AEC789F1476FD09005F8275 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEC789E1476FD09005F8275 /* UIKit.framework */; };
+		2AEC78A11476FD09005F8275 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEC78A01476FD09005F8275 /* Foundation.framework */; };
+		2AEC78A31476FD09005F8275 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEC78A21476FD09005F8275 /* CoreGraphics.framework */; };
+		2AEC78A91476FD09005F8275 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC78A71476FD09005F8275 /* InfoPlist.strings */; };
+		2AEC78AB1476FD09005F8275 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC78AA1476FD09005F8275 /* main.m */; };
+		2AEC78AF1476FD09005F8275 /* com_switchrAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC78AE1476FD09005F8275 /* com_switchrAppDelegate.m */; };
+		2AEC78B21476FD09005F8275 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC78B01476FD09005F8275 /* MainStoryboard_iPhone.storyboard */; };
+		2AEC78B51476FD09005F8275 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC78B31476FD09005F8275 /* MainStoryboard_iPad.storyboard */; };
+		2AEC78B81476FD09005F8275 /* com_switchrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC78B71476FD09005F8275 /* com_switchrViewController.m */; };
+		2AEC78C01476FD09005F8275 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEC78BF1476FD09005F8275 /* SenTestingKit.framework */; };
+		2AEC78C11476FD09005F8275 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEC789E1476FD09005F8275 /* UIKit.framework */; };
+		2AEC78C21476FD09005F8275 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEC78A01476FD09005F8275 /* Foundation.framework */; };
+		2AEC78CA1476FD09005F8275 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC78C81476FD09005F8275 /* InfoPlist.strings */; };
+		2AEC78CD1476FD09005F8275 /* SwitchrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC78CC1476FD09005F8275 /* SwitchrTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AEC78C31476FD09005F8275 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AEC78911476FD09005F8275 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AEC78991476FD09005F8275;
+			remoteInfo = Switchr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AEC789A1476FD09005F8275 /* Switchr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Switchr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AEC789E1476FD09005F8275 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2AEC78A01476FD09005F8275 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2AEC78A21476FD09005F8275 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2AEC78A61476FD09005F8275 /* Switchr-Info.plist */ = {isa = PBXFileReference; path = "Switchr-Info.plist"; sourceTree = "<group>"; };
+		2AEC78A81476FD09005F8275 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AEC78AA1476FD09005F8275 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AEC78AC1476FD09005F8275 /* Switchr-Prefix.pch */ = {isa = PBXFileReference; path = "Switchr-Prefix.pch"; sourceTree = "<group>"; };
+		2AEC78AD1476FD09005F8275 /* com_switchrAppDelegate.h */ = {isa = PBXFileReference; path = com_switchrAppDelegate.h; sourceTree = "<group>"; };
+		2AEC78AE1476FD09005F8275 /* com_switchrAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_switchrAppDelegate.m; sourceTree = "<group>"; };
+		2AEC78B11476FD09005F8275 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2AEC78B41476FD09005F8275 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2AEC78B61476FD09005F8275 /* com_switchrViewController.h */ = {isa = PBXFileReference; path = com_switchrViewController.h; sourceTree = "<group>"; };
+		2AEC78B71476FD09005F8275 /* com_switchrViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_switchrViewController.m; sourceTree = "<group>"; };
+		2AEC78BE1476FD09005F8275 /* SwitchrTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchrTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AEC78BF1476FD09005F8275 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2AEC78C71476FD09005F8275 /* SwitchrTests-Info.plist */ = {isa = PBXFileReference; path = "SwitchrTests-Info.plist"; sourceTree = "<group>"; };
+		2AEC78C91476FD09005F8275 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AEC78CB1476FD09005F8275 /* SwitchrTests.h */ = {isa = PBXFileReference; path = SwitchrTests.h; sourceTree = "<group>"; };
+		2AEC78CC1476FD09005F8275 /* SwitchrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchrTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AEC78971476FD09005F8275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AEC789F1476FD09005F8275 /* UIKit.framework in Frameworks */,
+				2AEC78A11476FD09005F8275 /* Foundation.framework in Frameworks */,
+				2AEC78A31476FD09005F8275 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AEC78BA1476FD09005F8275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AEC78C01476FD09005F8275 /* SenTestingKit.framework in Frameworks */,
+				2AEC78C11476FD09005F8275 /* UIKit.framework in Frameworks */,
+				2AEC78C21476FD09005F8275 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AEC788F1476FD09005F8275 = {
+			isa = PBXGroup;
+			children = (
+				2AEC78A41476FD09005F8275 /* Switchr */,
+				2AEC78C51476FD09005F8275 /* SwitchrTests */,
+				2AEC789D1476FD09005F8275 /* Frameworks */,
+				2AEC789B1476FD09005F8275 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AEC789B1476FD09005F8275 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC789A1476FD09005F8275 /* Switchr.app */,
+				2AEC78BE1476FD09005F8275 /* SwitchrTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AEC789D1476FD09005F8275 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC789E1476FD09005F8275 /* UIKit.framework */,
+				2AEC78A01476FD09005F8275 /* Foundation.framework */,
+				2AEC78A21476FD09005F8275 /* CoreGraphics.framework */,
+				2AEC78BF1476FD09005F8275 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AEC78A41476FD09005F8275 /* Switchr */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC78AD1476FD09005F8275 /* com_switchrAppDelegate.h */,
+				2AEC78AE1476FD09005F8275 /* com_switchrAppDelegate.m */,
+				2AEC78B01476FD09005F8275 /* MainStoryboard_iPhone.storyboard */,
+				2AEC78B31476FD09005F8275 /* MainStoryboard_iPad.storyboard */,
+				2AEC78B61476FD09005F8275 /* com_switchrViewController.h */,
+				2AEC78B71476FD09005F8275 /* com_switchrViewController.m */,
+				2AEC78A51476FD09005F8275 /* Supporting Files */,
+			);
+			path = Switchr;
+			sourceTree = "<group>";
+		};
+		2AEC78A51476FD09005F8275 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC78A61476FD09005F8275 /* Switchr-Info.plist */,
+				2AEC78A71476FD09005F8275 /* InfoPlist.strings */,
+				2AEC78AA1476FD09005F8275 /* main.m */,
+				2AEC78AC1476FD09005F8275 /* Switchr-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AEC78C51476FD09005F8275 /* SwitchrTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC78CB1476FD09005F8275 /* SwitchrTests.h */,
+				2AEC78CC1476FD09005F8275 /* SwitchrTests.m */,
+				2AEC78C61476FD09005F8275 /* Supporting Files */,
+			);
+			path = SwitchrTests;
+			sourceTree = "<group>";
+		};
+		2AEC78C61476FD09005F8275 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC78C71476FD09005F8275 /* SwitchrTests-Info.plist */,
+				2AEC78C81476FD09005F8275 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AEC78991476FD09005F8275 /* Switchr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AEC78D01476FD09005F8275 /* Build configuration list for PBXNativeTarget "Switchr" */;
+			buildPhases = (
+				2AEC78961476FD09005F8275 /* Sources */,
+				2AEC78971476FD09005F8275 /* Frameworks */,
+				2AEC78981476FD09005F8275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Switchr;
+			productName = Switchr;
+			productReference = 2AEC789A1476FD09005F8275 /* Switchr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AEC78BD1476FD09005F8275 /* SwitchrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AEC78D31476FD09005F8275 /* Build configuration list for PBXNativeTarget "SwitchrTests" */;
+			buildPhases = (
+				2AEC78B91476FD09005F8275 /* Sources */,
+				2AEC78BA1476FD09005F8275 /* Frameworks */,
+				2AEC78BB1476FD09005F8275 /* Resources */,
+				2AEC78BC1476FD09005F8275 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AEC78C41476FD09005F8275 /* PBXTargetDependency */,
+			);
+			name = SwitchrTests;
+			productName = SwitchrTests;
+			productReference = 2AEC78BE1476FD09005F8275 /* SwitchrTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AEC78911476FD09005F8275 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "University Of Pennsylvania";
+			};
+			buildConfigurationList = 2AEC78941476FD09005F8275 /* Build configuration list for PBXProject "Switchr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2AEC788F1476FD09005F8275;
+			productRefGroup = 2AEC789B1476FD09005F8275 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AEC78991476FD09005F8275 /* Switchr */,
+				2AEC78BD1476FD09005F8275 /* SwitchrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AEC78981476FD09005F8275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AEC78A91476FD09005F8275 /* InfoPlist.strings in Resources */,
+				2AEC78B21476FD09005F8275 /* MainStoryboard_iPhone.storyboard in Resources */,
+				2AEC78B51476FD09005F8275 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AEC78BB1476FD09005F8275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AEC78CA1476FD09005F8275 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AEC78BC1476FD09005F8275 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AEC78961476FD09005F8275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AEC78AB1476FD09005F8275 /* main.m in Sources */,
+				2AEC78AF1476FD09005F8275 /* com_switchrAppDelegate.m in Sources */,
+				2AEC78B81476FD09005F8275 /* com_switchrViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AEC78B91476FD09005F8275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AEC78CD1476FD09005F8275 /* SwitchrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AEC78C41476FD09005F8275 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AEC78991476FD09005F8275 /* Switchr */;
+			targetProxy = 2AEC78C31476FD09005F8275 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AEC78A71476FD09005F8275 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AEC78A81476FD09005F8275 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2AEC78B01476FD09005F8275 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AEC78B11476FD09005F8275 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2AEC78B31476FD09005F8275 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AEC78B41476FD09005F8275 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2AEC78C81476FD09005F8275 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AEC78C91476FD09005F8275 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AEC78CE1476FD09005F8275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AEC78CF1476FD09005F8275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AEC78D11476FD09005F8275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Switchr/Switchr-Prefix.pch";
+				INFOPLIST_FILE = "Switchr/Switchr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2AEC78D21476FD09005F8275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Switchr/Switchr-Prefix.pch";
+				INFOPLIST_FILE = "Switchr/Switchr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2AEC78D41476FD09005F8275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Switchr.app/Switchr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Switchr/Switchr-Prefix.pch";
+				INFOPLIST_FILE = "SwitchrTests/SwitchrTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2AEC78D51476FD09005F8275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Switchr.app/Switchr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Switchr/Switchr-Prefix.pch";
+				INFOPLIST_FILE = "SwitchrTests/SwitchrTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AEC78941476FD09005F8275 /* Build configuration list for PBXProject "Switchr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AEC78CE1476FD09005F8275 /* Debug */,
+				2AEC78CF1476FD09005F8275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AEC78D01476FD09005F8275 /* Build configuration list for PBXNativeTarget "Switchr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AEC78D11476FD09005F8275 /* Debug */,
+				2AEC78D21476FD09005F8275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AEC78D31476FD09005F8275 /* Build configuration list for PBXNativeTarget "SwitchrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AEC78D41476FD09005F8275 /* Debug */,
+				2AEC78D51476FD09005F8275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AEC78911476FD09005F8275 /* Project object */;
+}
