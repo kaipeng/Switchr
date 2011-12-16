@@ -1,14 +1,14 @@
 //
-//  RegisterADevice.m
+//  Login.m
 //  Switchr
 //
-//  Created by Jeffrey Kiske on 11/18/11.
+//  Created by Kai Peng on 12/15/11.
 //  Copyright (c) 2011 University Of Pennsylvania. All rights reserved.
 //
 
-#import "RegisterADevice.h"
+#import "Login.h"
 
-@implementation RegisterADevice
+@implementation Login
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,20 +29,11 @@
 
 #pragma mark - View lifecycle
 
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView
-{
-}
-*/
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
 }
-*/
 
 - (void)viewDidUnload
 {
@@ -57,7 +48,4 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (IBAction)Exit:(id)sender {
-    [self.presentingViewController dismissModalViewControllerAnimated:YES];
-}
 @end

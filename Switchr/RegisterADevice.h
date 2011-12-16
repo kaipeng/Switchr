@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface RegisterADevice : UIViewController
+- (IBAction)Exit:(id)sender;
 
 @end
