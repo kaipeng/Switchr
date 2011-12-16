@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1F03C3A6147714280090996B /* RegisterADevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F03C3A5147714280090996B /* RegisterADevice.m */; };
+		2A4B882B149AD68900825194 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B8829149AD68900825194 /* Login.m */; };
+		2A4B8830149AD7A000825194 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B882F149AD7A000825194 /* Home.m */; };
 		2AEC789F1476FD09005F8275 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEC789E1476FD09005F8275 /* UIKit.framework */; };
 		2AEC78A11476FD09005F8275 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEC78A01476FD09005F8275 /* Foundation.framework */; };
 		2AEC78A31476FD09005F8275 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEC78A21476FD09005F8275 /* CoreGraphics.framework */; };
@@ -16,7 +18,6 @@
 		2AEC78AF1476FD09005F8275 /* com_switchrAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC78AE1476FD09005F8275 /* com_switchrAppDelegate.m */; };
 		2AEC78B21476FD09005F8275 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC78B01476FD09005F8275 /* MainStoryboard_iPhone.storyboard */; };
 		2AEC78B51476FD09005F8275 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC78B31476FD09005F8275 /* MainStoryboard_iPad.storyboard */; };
-		2AEC78B81476FD09005F8275 /* com_switchrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC78B71476FD09005F8275 /* com_switchrViewController.m */; };
 		2AEC78C01476FD09005F8275 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEC78BF1476FD09005F8275 /* SenTestingKit.framework */; };
 		2AEC78C11476FD09005F8275 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEC789E1476FD09005F8275 /* UIKit.framework */; };
 		2AEC78C21476FD09005F8275 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEC78A01476FD09005F8275 /* Foundation.framework */; };
@@ -37,6 +38,10 @@
 /* Begin PBXFileReference section */
 		1F03C3A4147714280090996B /* RegisterADevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterADevice.h; sourceTree = "<group>"; };
 		1F03C3A5147714280090996B /* RegisterADevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterADevice.m; sourceTree = "<group>"; };
+		2A4B8828149AD68900825194 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		2A4B8829149AD68900825194 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		2A4B882E149AD7A000825194 /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		2A4B882F149AD7A000825194 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		2AEC789A1476FD09005F8275 /* Switchr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Switchr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AEC789E1476FD09005F8275 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2AEC78A01476FD09005F8275 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -49,8 +54,6 @@
 		2AEC78AE1476FD09005F8275 /* com_switchrAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_switchrAppDelegate.m; sourceTree = "<group>"; };
 		2AEC78B11476FD09005F8275 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		2AEC78B41476FD09005F8275 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		2AEC78B61476FD09005F8275 /* com_switchrViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_switchrViewController.h; sourceTree = "<group>"; };
-		2AEC78B71476FD09005F8275 /* com_switchrViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_switchrViewController.m; sourceTree = "<group>"; };
 		2AEC78BE1476FD09005F8275 /* SwitchrTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchrTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AEC78BF1476FD09005F8275 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		2AEC78C71476FD09005F8275 /* SwitchrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwitchrTests-Info.plist"; sourceTree = "<group>"; };
@@ -119,11 +122,13 @@
 				2AEC78AD1476FD09005F8275 /* com_switchrAppDelegate.h */,
 				2AEC78AE1476FD09005F8275 /* com_switchrAppDelegate.m */,
 				2AEC78B01476FD09005F8275 /* MainStoryboard_iPhone.storyboard */,
+				2A4B882E149AD7A000825194 /* Home.h */,
+				2A4B882F149AD7A000825194 /* Home.m */,
 				1F03C3A4147714280090996B /* RegisterADevice.h */,
 				1F03C3A5147714280090996B /* RegisterADevice.m */,
+				2A4B8828149AD68900825194 /* Login.h */,
+				2A4B8829149AD68900825194 /* Login.m */,
 				2AEC78B31476FD09005F8275 /* MainStoryboard_iPad.storyboard */,
-				2AEC78B61476FD09005F8275 /* com_switchrViewController.h */,
-				2AEC78B71476FD09005F8275 /* com_switchrViewController.m */,
 				2AEC78A51476FD09005F8275 /* Supporting Files */,
 			);
 			path = Switchr;
@@ -269,8 +274,9 @@
 			files = (
 				2AEC78AB1476FD09005F8275 /* main.m in Sources */,
 				2AEC78AF1476FD09005F8275 /* com_switchrAppDelegate.m in Sources */,
-				2AEC78B81476FD09005F8275 /* com_switchrViewController.m in Sources */,
 				1F03C3A6147714280090996B /* RegisterADevice.m in Sources */,
+				2A4B882B149AD68900825194 /* Login.m in Sources */,
+				2A4B8830149AD7A000825194 /* Home.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
